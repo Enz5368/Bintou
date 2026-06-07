@@ -1,0 +1,11 @@
+<svg width="320" height="120" viewBox="0 0 320 120" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Logo MB Avocat</title>
+  <desc id="desc">Monogramme professionnel MB pour MEITE BINTOU Avocate</desc>
+  <rect x="2" y="2" width="316" height="116" rx="12" fill="#FFFCF7" stroke="#C7A568" stroke-width="4"/>
+  <path d="M42 88V33H55L72 63L89 33H102V88H89V56L76 79H68L55 56V88H42Z" fill="#182846"/>
+  <path d="M119 88V33H144C155 33 162 39 162 48C162 54 159 58 154 61C161 64 165 70 165 77C165 87 158 88 146 88H119ZM132 56H143C148 56 151 53 151 49C151 45 148 43 143 43H132V56ZM132 78H145C151 78 153 75 153 71C153 67 150 65 145 65H132V78Z" fill="#182846"/>
+  <path d="M188 33H276" stroke="#C7A568" stroke-width="3" stroke-linecap="round"/>
+  <path d="M188 61H260" stroke="#182846" stroke-width="2" stroke-linecap="round"/>
+  <path d="M188 88H276" stroke="#C7A568" stroke-width="3" stroke-linecap="round"/>
+  <text x="188" y="55" fill="#182846" font-family="Georgia, 'Times New Roman', serif" font-size="18" font-weight="700">AVOCAT</text>
+</svg>
