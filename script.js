@@ -1,5 +1,6 @@
 const navToggle = document.querySelector(".nav-toggle");
 const nav = document.querySelector(".nav");
+const siteHeader = document.querySelector(".site-header");
 
 if (navToggle && nav) {
   navToggle.addEventListener("click", () => {
@@ -14,6 +15,32 @@ if (navToggle && nav) {
     }
   });
 }
+
+document.querySelectorAll('a[href^="#"]').forEach((link) => {
+  link.addEventListener("click", (event) => {
+    const hash = link.getAttribute("href");
+
+    if (!hash || hash === "#") return;
+
+    const target = document.querySelector(hash);
+    if (!target) return;
+
+    event.preventDefault();
+
+    if (hash === "#accueil") {
+      window.scrollTo({ top: 0, behavior: "smooth" });
+      history.pushState(null, "", hash);
+      return;
+    }
+
+    const headerHeight = siteHeader ? siteHeader.offsetHeight : 0;
+    const contentTarget = target.firstElementChild || target;
+    const top = contentTarget.getBoundingClientRect().top + window.scrollY - headerHeight - 18;
+
+    window.scrollTo({ top, behavior: "smooth" });
+    history.pushState(null, "", hash);
+  });
+});
 
 const copyToast = document.querySelector(".copy-toast");
 

@@ -14,7 +14,7 @@
 
 * { box-sizing: border-box; }
 html { scroll-behavior: smooth; }
-[id] { scroll-margin-top: 112px; }
+[id] { scroll-margin-top: 24px; }
 body {
   margin: 0;
   background: var(--paper);
