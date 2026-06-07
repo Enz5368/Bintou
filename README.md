@@ -19,17 +19,9 @@ assets/photo-professionnelle.jpg
 
 Le site affiche automatiquement un placeholder élégant tant que cette image n'existe pas.
 
-## Changer le lien de prise de rendez-vous
+## Gestion des demandes de rendez-vous
 
-Ouvrir `script.js` et remplacer :
-
-```js
-const APPOINTMENT_URL = "LIEN_RDV_EN_LIGNE_A_REMPLACER";
-```
-
-par le lien Calendly ou Google Calendar Appointment Schedule.
-
-Si la valeur reste inchangée, le bouton renvoie vers la section contact.
+La section `Rendez-vous` contient le formulaire Netlify Forms. Les demandes sont récupérées dans l'interface Netlify une fois le site publié.
 
 ## Activer Netlify Forms
 

@@ -1,5 +1,3 @@
-const APPOINTMENT_URL = "LIEN_RDV_EN_LIGNE_A_REMPLACER";
-
 const navToggle = document.querySelector(".nav-toggle");
 const nav = document.querySelector(".nav");
 
@@ -16,13 +14,3 @@ if (navToggle && nav) {
     }
   });
 }
-
-document.querySelectorAll(".js-appointment-link").forEach((link) => {
-  if (APPOINTMENT_URL && APPOINTMENT_URL !== "LIEN_RDV_EN_LIGNE_A_REMPLACER") {
-    link.setAttribute("href", APPOINTMENT_URL);
-    link.setAttribute("target", "_blank");
-    link.setAttribute("rel", "noopener");
-  } else {
-    link.setAttribute("href", "#contact");
-  }
-});

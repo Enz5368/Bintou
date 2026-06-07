@@ -135,16 +135,10 @@
       <section id="rendez-vous" class="section appointment">
         <div class="section-heading">
           <p class="eyebrow">Rendez-vous</p>
-          <h2>Prendre contact avec le cabinet.</h2>
-          <p>Le bouton de prise de rendez-vous en ligne peut être relié à Calendly ou à Google Calendar Appointment Schedule dès que le lien est disponible.</p>
-          <a class="btn js-appointment-link" href="#contact">Prendre rendez-vous en ligne</a>
-        </div>
-      </section>
-
-      <section id="contact" class="section contact-layout">
-        <div>
-          <p class="eyebrow">Contact</p>
           <h2>Transmettre votre demande.</h2>
+          <p>Utilisez ce formulaire pour présenter brièvement votre situation et indiquer le type de consultation souhaité. Le cabinet reviendra vers vous dans le cadre de votre demande.</p>
+        </div>
+        <div class="form-panel">
           <form name="contact" method="POST" action="/merci.html" data-netlify="true" netlify-honeypot="bot-field" class="contact-form">
             <input type="hidden" name="form-name" value="contact">
             <p class="hidden"><label>Ne pas remplir <input name="bot-field"></label></p>
@@ -170,6 +164,19 @@
             <button class="btn" type="submit">Envoyer la demande</button>
           </form>
         </div>
+      </section>
+
+      <section id="contact" class="section contact-layout">
+        <div>
+          <p class="eyebrow">Contact</p>
+          <h2>Coordonnées du cabinet.</h2>
+          <p>Le cabinet reçoit à Joué-lès-Tours et accompagne les demandes sur Tours, Blois, Orléans, Montargis et les villes voisines.</p>
+          <div class="contact-actions">
+            <a class="btn btn-secondary" href="tel:+33652819164">Appeler</a>
+            <a class="btn btn-ghost" href="mailto:BMeiteavocat@outlook.com">Envoyer un e-mail</a>
+            <a class="btn btn-ghost" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=1%20RUE%20DU%20PONT%20VOLANT%2037300%20JOU%C3%89-L%C3%88S-TOURS">Itinéraire Google Maps</a>
+          </div>
+        </div>
         <aside class="contact-card">
           <img src="assets/logo.svg" alt="Logo MB Avocat">
           <h3>Cabinet WALTER & GARANCE</h3>
@@ -177,11 +184,6 @@
           <p><strong>Téléphone :</strong> <a href="tel:+33652819164">06 52 81 91 64</a></p>
           <p><strong>E-mail :</strong> <a href="mailto:BMeiteavocat@outlook.com">BMeiteavocat@outlook.com</a></p>
           <p><strong>Horaires :</strong> 08h - 19h</p>
-          <div class="contact-actions">
-            <a class="btn btn-secondary" href="tel:+33652819164">Appeler</a>
-            <a class="btn btn-ghost" href="mailto:BMeiteavocat@outlook.com">Envoyer un e-mail</a>
-            <a class="btn btn-ghost" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=1%20RUE%20DU%20PONT%20VOLANT%2037300%20JOU%C3%89-L%C3%88S-TOURS">Itinéraire Google Maps</a>
-          </div>
           <div class="map-frame">
             <iframe title="Carte du cabinet WALTER & GARANCE" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://www.google.com/maps?q=1%20RUE%20DU%20PONT%20VOLANT%2037300%20JOU%C3%89-L%C3%88S-TOURS&output=embed"></iframe>
           </div>
