@@ -254,7 +254,7 @@ blockquote {
 }
 .form-panel {
   width: 100%;
-  padding: clamp(18px, 3vw, 30px);
+  padding: clamp(12px, 2vw, 20px);
   border: 1px solid var(--line);
   border-radius: 8px;
   background: var(--white);
@@ -262,30 +262,36 @@ blockquote {
 }
 .contact-form {
   display: grid;
-  gap: 12px;
+  gap: 8px;
+}
+.contact-form .btn {
+  min-height: 38px;
+  padding: 8px 14px;
 }
 .form-row {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 14px;
+  gap: 12px;
 }
 label {
   display: grid;
-  gap: 5px;
+  gap: 3px;
   color: var(--navy);
+  font-size: 0.88rem;
   font-weight: 700;
 }
 input, select, textarea {
   width: 100%;
   border: 1px solid var(--line);
   border-radius: 6px;
-  padding: 9px 12px;
+  min-height: 36px;
+  padding: 6px 10px;
   background: var(--white);
   color: var(--ink);
   font: inherit;
 }
 textarea {
-  min-height: 104px;
+  min-height: 76px;
 }
 input:focus, select:focus, textarea:focus {
   outline: 3px solid rgba(199, 165, 104, 0.32);
@@ -295,6 +301,7 @@ input:focus, select:focus, textarea:focus {
   grid-template-columns: auto 1fr;
   align-items: start;
   font-weight: 400;
+  font-size: 0.86rem;
   color: var(--ink);
 }
 .rgpd input { width: auto; margin-top: 5px; }
