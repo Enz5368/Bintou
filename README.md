@@ -21,19 +21,17 @@ Le site affiche automatiquement un placeholder élégant tant que cette image n'
 
 ## Gestion des demandes de rendez-vous
 
-La section `Rendez-vous` contient le formulaire Netlify Forms. Les demandes sont récupérées dans l'interface Netlify une fois le site publié.
+La section `Rendez-vous` contient le formulaire Formspree. Les demandes sont envoyées vers l'endpoint `https://formspree.io/f/mzdqrnoe`.
 
-## Activer Netlify Forms
+## Formulaire Formspree
 
 Le formulaire est déjà configuré avec :
 
 - `method="POST"`
-- `data-netlify="true"`
-- un champ hidden `form-name`
-- une page de confirmation `merci.html`
+- `action="https://formspree.io/f/mzdqrnoe"`
 - un champ honeypot anti-spam
 
-Après publication sur Netlify, envoyer un premier test de formulaire depuis le site en ligne. Les messages seront visibles dans l'interface Netlify du site.
+Après publication, envoyer un premier test de formulaire depuis le site en ligne. Les messages seront visibles dans l'interface Formspree du formulaire.
 
 ## Publier sur Netlify
 
